@@ -1,0 +1,24 @@
+{
+  "name": "scores",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlaNKtext/livescores.git"
+  },
+  "author": "webosu!",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/BlaNKtext/livescores/issues"
+  },
+  "homepage": "https://github.com/BlaNKtext/livescores#readme",
+  "description": "",
+  "dependencies": {
+    "@whatwg-node/server": "^0.9.46",
+    "itty-router": "^5.0.17"
+  }
+}
