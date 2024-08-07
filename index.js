@@ -1,6 +1,4 @@
 import { AutoRouter, cors } from 'itty-router'
-import { createServerAdapter } from '@whatwg-node/server'
-import { createServer } from 'http'
 import url  from 'url'
 const { preflight, corsify } = cors() 
 const router = AutoRouter({
@@ -22,7 +20,4 @@ router.get("/post",(req, res) => {
     return new Response("")
   })
 router.all("*", () => new Response("This route doesnt exist, silly!", {status: 404}))
-const ittyServer = createServerAdapter(router.fetch)
-const httpServer = createServer(ittyServer)
-httpServer.listen('port', process.env.PORT || 3000)
 export default router
