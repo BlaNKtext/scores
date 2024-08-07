@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "nodemon index.mjs"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
