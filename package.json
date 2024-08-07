@@ -2,9 +2,9 @@
   "name": "scores",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js",
+    "build": "npm install"
   },
   "repository": {
     "type": "git",
